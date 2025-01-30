@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create Account</title>
+</head>
+<body>
+    <div>
+        <a href="index.html">index.html</a>
+        <a href="form.html">form.html</a>
+
+
+    <h1><strong>Alt_</strong>
+        <br><strong>School</strong><br>
+    </h1>
+
+    <h3><strong>Already an Altschooler? Sign In!</strong></h3>
+
+    <h1><strong>Signup</strong></h1>
+
+    <p>Take the next steps to apply at AltSchool Africa</p>
+
+    <div>
+<form>
+<label for="firstname">First Name</label>
+<br> <input type="text" name="name" placeholder="Enter First Name" required /> <br>
+
+<p>
+ <label for="lastname">Last Name</label>
+<br> <input type="text" name="name" placeholder="Enter Last Name" required /> <br>
+</p>
+
+<label for="gender">Gender</label>
+<br> 
+<input type="text" id="gender" list="gender-list" placeholder="Enter Gender"/>
+<datalist id="gender-list">
+    <option>Male</option>
+    <option>Female</option>
+    <option>other</option>
+</datalist>
+<br>
+
+<p>
+<label>Date of Birth</label>
+<br>
+<input type="date" required />
+<br>
+</p>
+
+
+<label for="email">Email address</label>
+<br>
+<input type="email" autocomplete="on" id="email" placeholder="Enter Email Address" required/>
+<br>
+
+<p>
+<label for="Phone">Phone Number</label>
+<br>
+<input type="tel" id="phone" placeholder="08154387000" required/>
+<br>
+</p>
+
+
+
+<label for="Country">Country</label>
+<br>
+    <input type="text" name="country" list="country-list" placeholder="Select Country"/>
+<datalist id="country-list">
+    <option>Nigeria</option>
+    <option>Ghana</option>
+    <option>South Africa</option>
+</datalist>
+<br>
+
+
+<p>
+<label>State/City of Residence</label>
+<br>
+<input type="text" placeholder="Enter state of residence" />
+</p>
+
+
+<P>
+<label for="channel">How did you hear about us</label>
+<br>
+<input type="text" list="channel" placeholder="select channel"/>
+<datalist id="channel">
+    <option>Facebook</option>
+    <option>Twitter</option>
+    <option>Instagram</option>
+    <option>TikTok</option>
+    <option>Other</option>
+</datalist> <br>
+</P>
+
+
+<label>Password</label>
+<br>
+<input type="password" placeholder="password" required />
+<br>
+
+
+<p>
+<label for="password">Confirm Password</label>
+<br>
+<input type="password" placeholder="password" required id="password"/>
+<br>
+</p>
+
+<p>
+<fieldset>
+    <button type="submit">submit</button>
+    <button type="submit" formaction="https://httpbin.org/post" formmethod="post"> Post</button>
+    <button type="reset">Reset</button>
+</fieldset>
+</p>
+
+
+
+
+</form>
+ </div>
+
+
+
+</div>
+
+</body>
+</html>
